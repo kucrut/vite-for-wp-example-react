@@ -4,25 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8434213f393ab165b0bd2d81c5f81af6",
+    "content-hash": "5a2b46b1035e8c2d108f05ce019b4d16",
     "packages": [
         {
             "name": "kucrut/vite-for-wp",
-            "version": "v0.3.1",
+            "version": "v0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kucrut/vite-for-wp.git",
-                "reference": "b3c0cf8521ade7345955be7f118e926b1b2ff59a"
+                "reference": "9099232dc1fa0e1f3d9c764661f1180b994c45e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kucrut/vite-for-wp/zipball/b3c0cf8521ade7345955be7f118e926b1b2ff59a",
-                "reference": "b3c0cf8521ade7345955be7f118e926b1b2ff59a",
+                "url": "https://api.github.com/repos/kucrut/vite-for-wp/zipball/9099232dc1fa0e1f3d9c764661f1180b994c45e2",
+                "reference": "9099232dc1fa0e1f3d9c764661f1180b994c45e2",
                 "shasum": ""
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
-                "wp-coding-standards/wpcs": "^2.3"
+                "wp-coding-standards/wpcs": "^3.0"
             },
             "type": "library",
             "autoload": {
@@ -42,9 +41,9 @@
             "description": "Vite integration for WordPress plugins and themes development.",
             "support": {
                 "issues": "https://github.com/kucrut/vite-for-wp/issues",
-                "source": "https://github.com/kucrut/vite-for-wp/tree/v0.3.1"
+                "source": "https://github.com/kucrut/vite-for-wp/tree/v0.6.0"
             },
-            "time": "2022-10-07T04:48:05+00:00"
+            "time": "2023-09-08T15:51:56+00:00"
         }
     ],
     "packages-dev": [],
@@ -55,5 +54,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
