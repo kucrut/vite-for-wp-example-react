@@ -15,8 +15,8 @@ export default defineConfig( ( { command } ) => {
 	return create_config( 'js/src/main.jsx', 'js/dist', {
 		plugins: [
 			react(),
-			external_globals( {
-				...wp_globals(),
+			external_globals( wp_globals(), {
+				include: [ '**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx' ],
 			} ),
 		],
 		build: {
