@@ -6,7 +6,9 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"format:check": "prettier --check .",
+		"format:fix": "prettier --write ."
 	},
 	"dependencies": {
 		"react": "^18.2.0",
