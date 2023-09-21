@@ -31,6 +31,7 @@ function enqueue_script(): void {
 		dirname( __DIR__ ) . '/js/dist',
 		'js/src/main.jsx',
 		[
+			'dependencies' => [ 'react', 'react-dom' ],
 			'handle' => 'vite-for-wp-react',
 			'in-footer' => true,
 		]
