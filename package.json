@@ -11,10 +11,10 @@
 		"format:fix": "prettier --write ."
 	},
 	"devDependencies": {
-		"@kucrut/vite-for-wp": "^0.7.0",
-		"@types/react": "^18.2.22",
-		"@types/react-dom": "^18.0.6",
-		"@vitejs/plugin-react": "^4.0.4",
+		"@kucrut/vite-for-wp": "^0.8.0",
+		"@types/react": "^18.2.37",
+		"@types/react-dom": "^18.2.15",
+		"@vitejs/plugin-react": "^4.1.1",
 		"prettier": "npm:wp-prettier@^3.0.3-beta-4",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
